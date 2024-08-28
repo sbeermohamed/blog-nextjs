@@ -6,7 +6,7 @@ export default function Page({ params }: { params: { id?: string } }) {
 
   return (
     <>
-      <h1>Post</h1>
+      <h1 className="text-green-800">Post</h1>
       <Post
         {...(post as {
           id: string;
